@@ -13,10 +13,10 @@
 
 #import "TabBarViewController.h"
 
-#import "FirstViewController.h"
-#import "SecondViewController.h"
+#import "FirstTableViewController.h"
+#import "SecondTableViewController.h"
 #import "ThirdViewController.h"
-#import "FourViewController.h"
+#import "FourTableViewController.h"
 
 
 

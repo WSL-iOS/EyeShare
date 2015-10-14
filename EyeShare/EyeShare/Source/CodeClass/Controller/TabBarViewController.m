@@ -17,14 +17,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UINavigationController *firstNC = [[UINavigationController alloc]initWithRootViewController:[[FirstViewController alloc]init]];
+    UINavigationController *firstNC = [[UINavigationController alloc]initWithRootViewController:[[FirstTableViewController alloc]init]];
     firstNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"first" image:nil tag:101];
     
-    UINavigationController *secondNC = [[UINavigationController alloc]initWithRootViewController:[[SecondViewController alloc]init]];
+    UINavigationController *secondNC = [[UINavigationController alloc]initWithRootViewController:[[SecondTableViewController alloc]init]];
     secondNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"second" image:nil tag:102 ];
     UINavigationController *thirdNC = [[UINavigationController alloc]initWithRootViewController:[[ThirdViewController alloc]init]];
     thirdNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"third" image:nil tag:103];
-    UINavigationController *fourNC = [[UINavigationController alloc]initWithRootViewController:[[FourViewController alloc]init]];
+    UINavigationController *fourNC = [[UINavigationController alloc]initWithRootViewController:[[FourTableViewController alloc]init]];
     fourNC.tabBarItem.title = @"four";
 
     

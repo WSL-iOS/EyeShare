@@ -1,5 +1,5 @@
 //
-//  FourViewController.h
+//  FirstTableViewController.h
 //  EyeShare
 //
 //  Created by lanou3g on 15/10/14.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FourViewController : UIViewController
+@interface FirstTableViewController : UITableViewController
 
 @end
