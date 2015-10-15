@@ -17,8 +17,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    UINavigationController *firstNC = [[UINavigationController alloc]initWithRootViewController:[[FirstTableViewController alloc]init]];
+    UINavigationController *firstNC = [[UINavigationController alloc]initWithRootViewController:[[FirstViewController alloc]init]];
     firstNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"first" image:nil tag:101];
+    
     
     UINavigationController *secondNC = [[UINavigationController alloc]initWithRootViewController:[[SecondTableViewController alloc]init]];
     secondNC.tabBarItem = [[UITabBarItem alloc]initWithTitle:@"second" image:nil tag:102 ];

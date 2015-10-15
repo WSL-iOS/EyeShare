@@ -21,7 +21,7 @@
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
     
-    self.window.rootViewController = [[UINavigationController alloc]initWithRootViewController:[[TabBarViewController alloc]init]];
+    self.window.rootViewController = [[TabBarViewController alloc]init];
     
     // 初始化LeadCloudSDK
     [AVOSCloud setApplicationId:LeadCloudID clientKey:LeadCloudKey];

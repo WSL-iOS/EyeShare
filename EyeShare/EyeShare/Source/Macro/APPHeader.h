@@ -9,21 +9,19 @@
 #ifndef Project_APPHeader_h
 #define Project_APPHeader_h
 
-
-
+#define kScreenWidth CGRectGetWidth([UIScreen mainScreen].bounds)
+#define kScreenHeight CGRectGetHeight([UIScreen mainScreen].bounds)
 #import "TabBarViewController.h"
 
-#import "FirstTableViewController.h"
+#import "FirstViewController.h"
 #import "SecondTableViewController.h"
 #import "ThirdViewController.h"
 #import "FourTableViewController.h"
 
-
-
-
-
-
-
+#import "FirstView.h"
+#import "FirstTableViewCell.h"
+#import "SecondTableViewCell.h"
+#import "ThirdTableViewCell.h"
 
 
 

@@ -16,10 +16,14 @@
 		C29719731BCE3D7900AAFFA7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719531BCE3D7900AAFFA7 /* AppDelegate.m */; };
 		C29719741BCE3D7900AAFFA7 /* LeanCloudTool.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719561BCE3D7900AAFFA7 /* LeanCloudTool.m */; };
 		C29719791BCE3D7900AAFFA7 /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719621BCE3D7900AAFFA7 /* TabBarViewController.m */; };
-		C29719B01BCE820900AAFFA7 /* FirstTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719AF1BCE820900AAFFA7 /* FirstTableViewController.m */; };
 		C29719B31BCE822800AAFFA7 /* SecondTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719B21BCE822800AAFFA7 /* SecondTableViewController.m */; };
 		C29719B61BCE827F00AAFFA7 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719B51BCE827F00AAFFA7 /* ThirdViewController.m */; };
 		C29719B91BCE829E00AAFFA7 /* FourTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C29719B81BCE829E00AAFFA7 /* FourTableViewController.m */; };
+		C2D2B2E61BCF35CD006E7880 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2B2E51BCF35CD006E7880 /* FirstViewController.m */; };
+		C2D2B2E91BCF3618006E7880 /* FirstView.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2B2E81BCF3618006E7880 /* FirstView.m */; };
+		C2D2B2EC1BCF493D006E7880 /* FirstTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2B2EB1BCF493D006E7880 /* FirstTableViewCell.m */; };
+		C2D2B2EF1BCF4B64006E7880 /* SecondTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2B2EE1BCF4B64006E7880 /* SecondTableViewCell.m */; };
+		C2D2B2F21BCF4B6D006E7880 /* ThirdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C2D2B2F11BCF4B6D006E7880 /* ThirdTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +58,22 @@
 		C297196F1BCE3D7900AAFFA7 /* KEYHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KEYHeader.h; sourceTree = "<group>"; };
 		C29719701BCE3D7900AAFFA7 /* URLHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URLHeader.h; sourceTree = "<group>"; };
 		C297197B1BCE3DB900AAFFA7 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
-		C29719AE1BCE820900AAFFA7 /* FirstTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstTableViewController.h; sourceTree = "<group>"; };
-		C29719AF1BCE820900AAFFA7 /* FirstTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstTableViewController.m; sourceTree = "<group>"; };
 		C29719B11BCE822800AAFFA7 /* SecondTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondTableViewController.h; sourceTree = "<group>"; };
 		C29719B21BCE822800AAFFA7 /* SecondTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondTableViewController.m; sourceTree = "<group>"; };
 		C29719B41BCE827F00AAFFA7 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
 		C29719B51BCE827F00AAFFA7 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		C29719B71BCE829E00AAFFA7 /* FourTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourTableViewController.h; sourceTree = "<group>"; };
 		C29719B81BCE829E00AAFFA7 /* FourTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourTableViewController.m; sourceTree = "<group>"; };
+		C2D2B2E41BCF35CD006E7880 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		C2D2B2E51BCF35CD006E7880 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		C2D2B2E71BCF3618006E7880 /* FirstView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstView.h; path = EyeShare/Source/CodeClass/Controller/FirstView.h; sourceTree = SOURCE_ROOT; };
+		C2D2B2E81BCF3618006E7880 /* FirstView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstView.m; path = EyeShare/Source/CodeClass/Controller/FirstView.m; sourceTree = SOURCE_ROOT; };
+		C2D2B2EA1BCF493D006E7880 /* FirstTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FirstTableViewCell.h; path = EyeShare/Source/CodeClass/Controller/FirstTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		C2D2B2EB1BCF493D006E7880 /* FirstTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FirstTableViewCell.m; path = EyeShare/Source/CodeClass/Controller/FirstTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		C2D2B2ED1BCF4B64006E7880 /* SecondTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SecondTableViewCell.h; path = EyeShare/Source/CodeClass/Controller/SecondTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		C2D2B2EE1BCF4B64006E7880 /* SecondTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SecondTableViewCell.m; path = EyeShare/Source/CodeClass/Controller/SecondTableViewCell.m; sourceTree = SOURCE_ROOT; };
+		C2D2B2F01BCF4B6D006E7880 /* ThirdTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdTableViewCell.h; path = EyeShare/Source/CodeClass/Controller/ThirdTableViewCell.h; sourceTree = SOURCE_ROOT; };
+		C2D2B2F11BCF4B6D006E7880 /* ThirdTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdTableViewCell.m; path = EyeShare/Source/CodeClass/Controller/ThirdTableViewCell.m; sourceTree = SOURCE_ROOT; };
 		D4C8A73158CD8EAED4388645 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
 		F52401887A0A967469F3DE06 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -212,8 +224,8 @@
 			children = (
 				C29719611BCE3D7900AAFFA7 /* TabBarViewController.h */,
 				C29719621BCE3D7900AAFFA7 /* TabBarViewController.m */,
-				C29719AE1BCE820900AAFFA7 /* FirstTableViewController.h */,
-				C29719AF1BCE820900AAFFA7 /* FirstTableViewController.m */,
+				C2D2B2E41BCF35CD006E7880 /* FirstViewController.h */,
+				C2D2B2E51BCF35CD006E7880 /* FirstViewController.m */,
 				C29719B11BCE822800AAFFA7 /* SecondTableViewController.h */,
 				C29719B21BCE822800AAFFA7 /* SecondTableViewController.m */,
 				C29719B41BCE827F00AAFFA7 /* ThirdViewController.h */,
@@ -234,6 +246,14 @@
 		C29719661BCE3D7900AAFFA7 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				C2D2B2E71BCF3618006E7880 /* FirstView.h */,
+				C2D2B2E81BCF3618006E7880 /* FirstView.m */,
+				C2D2B2EA1BCF493D006E7880 /* FirstTableViewCell.h */,
+				C2D2B2EB1BCF493D006E7880 /* FirstTableViewCell.m */,
+				C2D2B2ED1BCF4B64006E7880 /* SecondTableViewCell.h */,
+				C2D2B2EE1BCF4B64006E7880 /* SecondTableViewCell.m */,
+				C2D2B2F01BCF4B6D006E7880 /* ThirdTableViewCell.h */,
+				C2D2B2F11BCF4B6D006E7880 /* ThirdTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -434,13 +454,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				C29719731BCE3D7900AAFFA7 /* AppDelegate.m in Sources */,
+				C2D2B2EF1BCF4B64006E7880 /* SecondTableViewCell.m in Sources */,
 				C297192D1BCE3D2900AAFFA7 /* main.m in Sources */,
-				C29719B01BCE820900AAFFA7 /* FirstTableViewController.m in Sources */,
+				C2D2B2EC1BCF493D006E7880 /* FirstTableViewCell.m in Sources */,
 				C29719791BCE3D7900AAFFA7 /* TabBarViewController.m in Sources */,
+				C2D2B2F21BCF4B6D006E7880 /* ThirdTableViewCell.m in Sources */,
 				C29719741BCE3D7900AAFFA7 /* LeanCloudTool.m in Sources */,
 				C29719B31BCE822800AAFFA7 /* SecondTableViewController.m in Sources */,
+				C2D2B2E91BCF3618006E7880 /* FirstView.m in Sources */,
 				C29719B61BCE827F00AAFFA7 /* ThirdViewController.m in Sources */,
 				C29719B91BCE829E00AAFFA7 /* FourTableViewController.m in Sources */,
+				C2D2B2E61BCF35CD006E7880 /* FirstViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -569,6 +593,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EyeShare/PrefixHeader.pch";
 				INFOPLIST_FILE = EyeShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -581,6 +606,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/EyeShare/PrefixHeader.pch";
 				INFOPLIST_FILE = EyeShare/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
